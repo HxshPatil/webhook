@@ -16,7 +16,7 @@ db.once('open', () => {
 });
 
 // Webhook endpoint
-app.post('/webhook', async (req, res) => {
+app.post('/cart/update', async (req, res) => {
   console.log('Received webhook payload:', req.body);
   
   try {
