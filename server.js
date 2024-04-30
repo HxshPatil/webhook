@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const port = 6000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://harsh01top:yamsVHt4ic7V1Ay2@cluster0.alm5xbp.mongodb.net/');
+mongoose.connect('mongodb+srv://laptop01harsh:uJcxLeOetM3DdrG7@cluster0.3f5qxiv.mongodb.net/');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
