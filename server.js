@@ -5,7 +5,7 @@ const WebhookPayload = require('./models/payload'); // Import the WebhookPayload
 const cors = require('cors');
 
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(bodyParser.json());
 const port = 6000;
 
